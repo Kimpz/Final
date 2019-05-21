@@ -1,0 +1,383 @@
+#nav02 a{
+	text-decoration: none;
+}
+
+.adminButton{
+	background-color: #4CAF50;
+	border: solid black;
+	color: black;
+	padding: 10px 10px;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.adminButton:hover{
+	background-color: yellow;
+}
+
+.userButton{
+	background-color: #4CAF50;
+	border: solid black; 
+	color: black;
+	padding: 10px 10px;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.userButton:hover{
+	background-color: yellow;
+}
+
+#regForm{
+	display: flex;
+	flex-wrap: wrap;
+	display: center;
+}
+
+#iconButton1{
+	display: flex;	
+	flex-wrap: wrap;
+	align-items: center;	
+	background-color: red;
+	padding: 10px;
+}
+
+#iconButton2{
+	background-color: red;
+	padding: 10px;
+}
+
+#loginUser1{
+	padding: 50px;
+}
+
+#cardBody1{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 30px;
+	border: solid black;
+}
+
+#button01{
+	box-shadow: 3px 3px 10px 5px black;/*rgba(255,255,255,0.7);*/
+	background-color: none;	
+	width: 180px;	
+
+}
+
+.card-header{
+	background-color: gray;
+}
+
+.img-src{
+	background: transparent;
+}
+
+#logo01{
+	width: 80px;
+	height: 80px;
+}
+
+#logo02{
+	display: flex;	
+	justify-content: center;
+	padding: 10px;
+}
+
+
+.nav{
+	display: flex;
+	flex-wrap: wrap;	
+	justify-content: space-between;
+	list-style-type: none;
+}
+
+#nav02{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#nav03{
+	display: flex;
+	flex-wrap: wrap;	
+	width: 200px;
+	height: 200px;
+}
+
+ul.nav.nav-tabs{
+	padding: 0px;
+
+
+}
+
+li.btn.btn-info.btn-lg{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#navBox01{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+
+#carouselBoarder01{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	background-color: black;
+	position: relative;
+	left: 400px;
+	top: 0px;
+	border: solid black;
+	width: 400px;
+	height: 300px;
+
+
+}
+
+
+/*KIM's CSS*/
+
+ /*body{
+  background: linear-gradient(to right ,rgba(0, 195, 255,.4), rgb(255, 255, 28));
+  height: 100%;  
+  margin: 0;
+  font-family: 'Arvo', serif; 
+  color: #777;
+
+}*/
+.navbar{
+  background-color: #ffd32a;
+}
+
+.navbar a{
+  font-size:18px;
+  color: blue;
+}
+.content {
+  padding: 16px;
+}
+
+
+form .modal-content{
+  background-color: #dff9fb; 
+
+}
+
+.container{
+  border: 4px dashed black;
+  background-color: white;
+  box-shadow: 2px 5px 5px;
+  border-radius: 18px;
+}
+
+.map h1{
+  color:black;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+  border-radius: 1500px;
+  text-align:   center;
+  background-color: white;
+  box-shadow: 0px 2px 4px;
+}
+
+
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  
+}
+
+.caption span.border {
+  background-color: #f1f2f6;
+  color: black;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 13px;
+  display: inline-block;
+  /*opacity:.9;*/
+}
+
+.about{
+  padding: 30px 40px 40px 30px;
+  margin: 0px 30px 30px 30px;
+  background-color: #dfe6e9;
+  box-shadow: 3px 5px 5px;
+}
+
+
+h2, h6{
+  text-align: center;
+}
+
+p { 
+  text-align: justify;
+  letter-spacing: 3px;
+  font-size: 20px;
+  text-indent: 2em; 
+  padding: 30px;
+  margin: 50px;
+}
+
+
+section h1{
+  color: black;
+  margin-top: 10px; 
+  margin-left: 70px;
+  margin-right: 70px;
+  text-align: center;
+  border: 2px solid white;
+  background-color:  rgba(0, 195, 255,.7);
+  border-radius: 50px;
+}
+
+#showcase{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding:5px;
+}
+
+.cards{
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin:10px;
+  box-shadow: 0px 0px 5px;
+  padding: 10px;
+  background-color: #4bcffa;
+  border-radius: 10px;
+}
+
+.cards .card-img{
+  height: 200px;
+
+}
+
+.cards .card-img img{
+  height: 100%;
+  min-width: 100%;
+  max-width: 150px;
+}
+
+.cards:hover{
+  box-shadow: 0px 2px 40px black;
+  transform: scale(1.2);
+  
+}
+
+.cards .card-desc{
+  font-size: 
+  padding:5px;
+  margin-bottom: 10px;
+}
+
+* { box-sizing: border-box; }
+
+.carousel {
+  background: white;
+}
+.carousel-cell {
+  width: 70%;
+  height: 200px;
+  /* flex-box, center image in cell */
+  display: -webkit-box;
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+
+.carousel-cell img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  /* dim unselected */
+  opacity: 0.7;
+  -webkit-transform: scale(0.85);
+          transform: scale(0.85);
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s, transform 0.3s, -webkit-filter 0.3s, filter 0.3s;
+          transition: opacity 0.3s, transform 0.3s, filter 0.3s;
+}
+
+.carousel-cell.is-selected img {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-filter: none;
+          filter: none;
+}
+
+.flickity-prev-next-button {
+  width: 60px;
+  height: 60px;
+  background: transparent;
+  opacity: 0.6;
+}
+
+
+.flickity-prev-next-button .arrow {
+  fill: white;
+}
+.flickity-prev-next-button.no-svg {
+  color: white;
+}
+
+.flickity-prev-next-button.previous { left: 0; }
+.flickity-prev-next-button.next { right: 0; }
+/* hide disabled button */
+.flickity-prev-next-button:disabled {
+  display: none;
+}
+
+/*Records*/
+table td, table th{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even);
+{
+  background-color:#f2f2f2;
+}
+
+tr:hover{
+  background:color:#ddd;
+}
+
+th{
+  padding-top:12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+footer{
+  border: 3px solid black;
+  left: 0;
+  bottom: 0;
+  width:  100%;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
